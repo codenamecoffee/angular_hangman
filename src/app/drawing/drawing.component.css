@@ -1,0 +1,143 @@
+.container2 {
+	position: relative;
+}
+
+
+/* Hangman's column style. */
+.hook {
+	height: 50px;
+	width: 10px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.top {
+	height: 10px;
+	width: 200px;
+	background-color: black;
+	margin-left: 120px;
+}
+
+.column {
+	height: 400px;
+	width: 10px;
+	background-color: black;
+	margin-left: 120px;
+}
+
+.bottom {
+	height: 10px;
+	width: 250px;
+	background-color: black;
+}
+
+/* Hangman's body style. */
+
+.head {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 10px solid black;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.hangmanBody {
+	width: 10px;
+	height: 115px;
+	background-color: black;
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+
+.rightArm {
+	width: 65px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 130px;
+	right: -65px;
+	rotate: 60deg;
+	transform-origin: left top;
+}
+
+.leftArm {
+	width: 65px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 130px;
+	right: 10px;
+	rotate: -30deg;
+	transform-origin: right top;
+}
+
+.rightForeArm {
+	width: 65px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 179px;
+	right: -86px;
+	rotate: 20deg;
+	transform-origin: left bottom;
+}
+
+.leftForeArm {
+	width: 65px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 107px;
+	right: 12px;
+	rotate: 70deg;
+	transform-origin: left top;
+}
+
+.rightLeg {
+	width: 70px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 222px;
+	right: -62px;
+	rotate: 50deg;
+	transform-origin: left bottom;
+}
+
+.rightCalf {
+	width: 80px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 265px;
+	right: -115px;
+	rotate: 115deg;
+	transform-origin: left bottom;
+}
+
+.leftLeg {
+	width: 70px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 225px;
+	right: 10px;
+	rotate: 14deg;
+	transform-origin: right bottom;
+}
+
+.leftCalf {
+	width: 80px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	bottom: 135px;
+	right: 100px;
+	rotate: 100deg;
+	transform-origin: right bottom;
+}

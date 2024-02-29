@@ -1,0 +1,10 @@
+.theme-btn {
+    position: absolute;
+    font-family: monospace;
+    font-weight: bold;
+    left: -50px;
+  }
+  
+  .theme-btn:hover {
+    cursor: pointer;
+  }

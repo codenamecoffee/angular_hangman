@@ -1,0 +1,33 @@
+.keyboard {
+	align-self: stretch;
+	display: grid;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(75px, 1fr)
+	);
+	gap: .5rem;
+}
+
+.buttonKey {
+	width: 100%;
+	background: none;
+	aspect-ratio: 1/1;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	padding: .5rem;
+	font-weight: bold;
+}
+
+.buttonKey:hover:not(:disabled), 
+.buttonKey:focus:not(:disabled) {
+	background-color: rgb(116, 66, 255);
+}
+
+.buttonKey.active {
+	background-color: rgb(116, 66, 255, 50%);
+	color: white;
+}
+
+.buttonKey.inactive {
+	opacity: .3;
+}
